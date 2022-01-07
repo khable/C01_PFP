@@ -1,0 +1,23 @@
+Algoritmo "media 2 notas"
+
+Variáveis nota1 , nota2 , media : decimal
+
+Inicio 
+     
+	 escrever ("Escreva a nota1")
+       ler (nota1)
+       
+	   escrever ("Escreva a nota2")   	   
+	   ler (nota2)
+	  
+	   media <- nota1 + nota2 / 2
+	   
+	   Se (media >= 9.5) Entao
+	      escrever ("Aprovado")
+	   Senao  
+          escrever ("Reprovado")		
+       Fim Se
+		 	 
+Fim		 
+		 
+		 
